@@ -1,0 +1,4 @@
+node_modules/
+.env
+spacecell_storage.json
+spacecell_relational.db
