@@ -1,14 +1,1 @@
-{
-  "name": "spacecell-core",
-  "version": "1.0.0",
-  "type": "module",
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.21",
-    "tsx": "^4.23.13",
-    "typescript": "^5.4.5"
-  }
-}
+{ "name": "spacecell-core-d2c", "version": "1.0.0", "type": "module", "scripts": { "start": "tsx server.ts", "test:chat": "tsx testChatSimulator.ts", "test:ddos": "tsx testDdosFlood.ts", "test:orbit": "tsx testOrbitLoss.ts", "test:triangulator": "tsx testTriangulator.ts" }, "dependencies": { "express": "^4.19.2", "dotenv": "^16.4.5" }, "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.5.4", "@types/express": "^4.17.21", "@types/node": "^22.5.4" } }

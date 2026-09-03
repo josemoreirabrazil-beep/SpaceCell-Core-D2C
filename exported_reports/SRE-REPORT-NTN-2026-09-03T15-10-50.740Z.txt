@@ -1,0 +1,31 @@
+==================================================
+   SPACECELL CORE NTN - OPERATIONAL SRE REPORT
+==================================================
+Timestamp: Thu, 03 Sep 2026 15:10:50 GMT
+Network Mode: 3GPP Rel-19 Non-Terrestrial Network
+
+[AWS REGION CONNECTIONS METRICS]
+[
+  {
+    "nodeId": "AWS-SA-EAST-1A",
+    "region": "São Paulo (Edge Latam)",
+    "currentConnections": 0,
+    "maxCapacity": 5000,
+    "status": "HEALTHY"
+  },
+  {
+    "nodeId": "AWS-SA-EAST-1B",
+    "region": "São Paulo (Backup Borda)",
+    "currentConnections": 0,
+    "maxCapacity": 5000,
+    "status": "HEALTHY"
+  }
+]
+
+[SECURITY INCIDENTS AUDIT LOG]
+INFO [12:10:01] Sistema de Defesa de Borda inicializado.
+
+==================================================
+DIGITAL SIGNATURE (RSA-2048):
+RSA-2048-SIMULATED-SIGNATURE-OK
+==================================================
